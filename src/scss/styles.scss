@@ -22,6 +22,12 @@ $spacers: (
   5: $spacer * 3,
 );
 
+.fixni-velikost {
+  width: 600px;
+  height: 600px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover; // Obrázek vyplní plochu a udrží poměr stran
+}
+
 // Import all of Bootstrap's CSS
 @import "bootstrap";
-
