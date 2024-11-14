@@ -21,6 +21,19 @@ $spacers: (
   4: $spacer * 20,
   5: $spacer * 3,
 );
+.nevim {
+  background: repeating-linear-gradient(
+      45deg,            /* Úhel proužků */
+      #FFC107,          /* Žlutá barva */
+      #FFC107 10px,     /* Šířka žlutého pruhu */
+      #212529 5px,       /* Počátek černého pruhu */
+      #212529 20px        /* Šířka černého pruhu */
+  );
+  padding: 10px;
+  display: flex;
+  gap: 15px;
+}
+
 
 .fixni-velikost {
   width: 600px;
